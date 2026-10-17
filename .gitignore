@@ -1,0 +1,29 @@
+# Environments and virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and credentials
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Vector database folders & data dumps
+faiss_index/
+chroma_db/
+.vector_store/
+
+# Operating system & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
